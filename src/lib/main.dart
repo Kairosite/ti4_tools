@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'dart:developer' as developer;
 
-import 'package:ti_calc/screens/home_view.dart';
-import 'package:ti_calc/screens/testUI_view.dart';
+import 'package:ti4_tools/screens/home_view.dart';
+import 'package:ti4_tools/screens/testUI_view.dart';
 
 
 void main() {

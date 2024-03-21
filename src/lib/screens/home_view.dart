@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'dart:developer' as developer;
 
-import 'package:ti_calc/widgets/cost_widgets.dart';
-import 'package:ti_calc/widgets/fleet_list.dart';
-import 'package:ti_calc/widgets/unit_table.dart';
-import 'package:ti_calc/unit_data.dart';
+import 'package:ti4_tools/widgets/cost_widgets.dart';
+import 'package:ti4_tools/widgets/fleet_list.dart';
+import 'package:ti4_tools/widgets/unit_table.dart';
+import 'package:ti4_tools/unit_data.dart';
 
 
 class HomeView extends StatelessWidget {

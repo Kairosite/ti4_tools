@@ -1,4 +1,4 @@
-import 'package:ti_calc/unit_model.dart';
+import 'package:ti4_tools/unit_model.dart';
 
 List<Unit> unitData = [
   Unit(

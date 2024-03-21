@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'dart:developer' as developer;
 
-import 'package:ti_calc/fleet_provider.dart';
-import 'package:ti_calc/unit_model.dart';
+import 'package:ti4_tools/fleet_provider.dart';
+import 'package:ti4_tools/unit_model.dart';
 
 
 class FleetList extends ConsumerWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'dart:developer' as developer;
 
-import 'package:ti_calc/unit_model.dart';
+import 'package:ti4_tools/unit_model.dart';
 
 final fleetProvider = StateNotifierProvider<FleetNotifier, List<Unit>>
   ((ref) {
