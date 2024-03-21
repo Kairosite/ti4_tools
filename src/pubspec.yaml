@@ -1,0 +1,40 @@
+name: ti_calc
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  riverpod_generator: ^2.3.9
+  riverpod_lint: ^2.3.7
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Slider
+      fonts:
+        - asset: assets/fonts/Slider-Regular.ttf
+    - family: AmbroiseFirmin
+      fonts:
+        - asset: assets/fonts/AmbroiseFirmin-Bold.otf
